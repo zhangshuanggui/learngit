@@ -1,0 +1,8 @@
+git init 初始化git
+git add <file> 新增文件
+git commit -m <message>  提交文件 -m 提交说明
+git status 查看仓库当前状态
+git diff 查看修改内容
+git log --pretty=oneline 查看提交日志 便于回退到某版本  
+git reflog 查看命令历史 便于回到未来的某个版本
+git reset --hard HEAD^ 回退到上个版本 HEAD^^前两个版本  HEAD~100多版本  --hard commit_id 回到指定提交id的版本
