@@ -19,5 +19,10 @@ git rm <file> 删除版本库中的文件
 git remote add origin git@XXXX 添加远程库
 git push -u origin master 推送master分支的全部内容  第一次提交之后可简化为git push origin master
 git clone git@XXXX 克隆仓库
-git checkout <分支名> 切换分支
-git branch 查看当前分支
+
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>或者git switch <name>
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
