@@ -18,3 +18,4 @@ git rm <file> 删除版本库中的文件
 
 git remote add origin git@XXXX 添加远程库
 git push -u origin master 推送master分支的全部内容  第一次提交之后可简化为git push origin master
+git clone git@XXXX 克隆仓库
