@@ -24,9 +24,11 @@ git clone git@XXXX 克隆仓库
 创建分支：git branch <name>
 切换分支：git checkout <name>或者git switch <name>
 创建+切换分支：git checkout -b <name>或者git switch -c <name>
-合并某分支到当前分支：git merge <name>
+合并某分支到当前分支：git merge <name>   
+git merge --no-ff -m "merge with no-ff" dev 禁用Fast forward
 删除分支：git branch -d <name>
 git log --graph 查看分支合并图
+git log --graph --pretty=oneline --abbrev-commit 查看分支合并历史图
 
 git stash 暂存 --不常用 list查看缓存列表 apply恢复缓存 drop删除缓存 pop 恢复存储并删除缓存
 git cherry-pick  commit_id 复制一个特定的提交到当前分支,例如 把bug提交的修改“复制”到当前分支，避免重复劳动
