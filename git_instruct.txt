@@ -28,6 +28,5 @@ git clone git@XXXX 克隆仓库
 删除分支：git branch -d <name>
 git log --graph 查看分支合并图
 
-git stash 暂存 --不常用
-git stash pop 恢复存储并删除缓存
+git stash 暂存 --不常用 list查看缓存列表 apply恢复缓存 drop删除缓存 pop 恢复存储并删除缓存
 git cherry-pick  commit_id 复制一个特定的提交到当前分支,例如 把bug提交的修改“复制”到当前分支，避免重复劳动
